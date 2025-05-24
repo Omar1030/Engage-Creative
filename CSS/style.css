@@ -1,0 +1,222 @@
+/* ===== Start Global Rules ===== */
+
+.text-gray {
+    color: RGB(136, 136, 136);
+}
+
+.text-black {
+    color: RGB(27, 27, 27);
+}
+
+.bg-gray {
+    background-color: #f8f8f8;
+}
+
+.bg-section-black {
+    background-color: RGB(27, 27, 27);
+}
+
+.fw-9 {
+    font-weight: 900;
+}
+
+.py-100 {
+    padding-block: 100px;
+}
+
+.section-head {
+    font-size: 42px;
+    color: RGB(27, 27, 27);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: RGB(136, 136, 136);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* ===== End Global Rules ===== */
+
+
+/* ===== Start Navbar ===== */
+
+.navbar .navbar-brand img {
+    width: 136px;
+}
+
+@media (max-width) {
+
+}
+
+/* ===== End navbar ===== */
+
+
+/* ===== Start Hero ===== */
+
+#hero {
+    background-image: linear-gradient(rgb(0 0 0 / 60%)), url(/IMG/agency-1.jpg);
+}
+
+#hero #hero-head {
+    font-size: 40px;
+}
+
+#hero #hero-para { 
+    font-size: 17px;
+}
+
+#hero #hero-info #hero-btns button {
+    padding: 9px 19px;
+}
+
+@media (min-width: 768px) {
+    #hero #hero-head {
+        font-size: 65px;
+    }
+    #hero #hero-para { 
+        font-size: 21px;
+    }
+    #hero #hero-info #hero-btns button {
+        padding: 15px 28px;
+    }
+}
+
+@media (min-width: 992px) {
+    #hero #hero-head {
+        font-size: 80px;
+    }
+    #hero #hero-para { 
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hero #hero-head {
+        font-size: 90px;
+    }
+}
+
+/* ===== End Hero ===== */
+
+
+/* ===== Start Our Work ===== */
+
+#our-work .carousel-indicators {
+    margin-top: 30px;
+}
+
+/* ===== End Our Work ===== */
+
+
+/* ===== Start Quote ===== */
+
+#quote q { 
+    color: RGBA(255, 255, 255, 0.5);
+}
+
+#quote q + p::after {
+    content: 'Microsoft';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    color: RGB(136, 136, 136);
+}
+
+#quote .carousel-item {
+    height: 300px;
+}
+
+/* ===== End Quote ===== */
+
+
+/* ===== Start News ===== */
+
+#news .carousel-indicators {
+    margin-top: 30px;
+}
+
+/* ===== End News ===== */
+
+
+/* ===== Start Contact ===== */
+
+#contact .contact-head {
+    letter-spacing: -2px;
+    font-size: 40px;
+}
+
+
+@media (min-width: 768px) {
+    #contact .contact-head {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    #contact .contact-head {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+/* ===== End Contact ===== */
+
+
+/* ===== Start Footer ===== */
+
+#footer .row .col-12:first-of-type p { 
+    max-width: 285px;
+}
+
+/* ===== End Footer ===== */
+
+
+/* ===== Start Footer Bottom ===== */
+
+#footer-bottom {
+    background-color: RGB(21, 21, 21);
+}
+
+#footer-bottom #social li {
+    background-color: #0000003d;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+#footer-bottom #social li:hover {
+    cursor: pointer;
+}
+
+#footer-bottom #social li:nth-child(1):hover {
+    background-color: #1877f2;
+}
+
+#footer-bottom #social li:nth-child(2):hover {
+    background-color: #dd4b39;
+}
+
+#footer-bottom #social li:nth-child(3):hover {
+    background-color: #0a66c2;
+}
+
+#footer-bottom #social li:nth-child(4):hover {
+    background-color: #1da1f2;
+}
+
+#footer-bottom #social li i {
+    color: RGB(136, 136, 136);
+    transition: 0.3s;
+}
+
+
+#footer-bottom #social li:hover i {
+    color: white;
+}
+
+/* ===== End Footer Bottom ===== */
